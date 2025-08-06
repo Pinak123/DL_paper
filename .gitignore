@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Model checkpoints and training artifacts
+*.tar
+*.pth.tar
+*.pth
+
+# Generated images and training outputs
+saved_images/
+logs/
+runs/
+
 # C extensions
 *.so
 
